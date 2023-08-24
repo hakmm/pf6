@@ -1,0 +1,85 @@
+/* title */
+
+#title .slick-prev, #title .slick-next {
+    z-index: 1;
+}
+
+#title .slick-prev {
+    left: 25px;
+    
+}
+
+#title .slick-next {
+    right: 25px;
+}
+
+#title .slick-prev::before, #title .slick-next::before {
+    font-size: 25px;   
+}
+
+/* promotion */
+
+#promotion button.slick-arrow{
+    width: 60px;
+    height: 60px;
+    top: calc(50% - 20px);
+}
+
+#promotion button.slick-arrow.slick-prev {
+    left: -70px;
+}
+
+#promotion button.slick-arrow.slick-next {
+    right: -70px;
+}
+
+#promotion button.slick-arrow::before {
+    font-family: initial !important;
+    content: "" !important;
+    width: 30px;
+    height: 30px;
+    display: block;
+    border: 3px solid #666;
+    border-bottom:transparent;
+    border-left:transparent;    
+} 
+
+#promotion .slick-prev::before{
+    transform: rotate(-135deg);
+}
+
+#promotion .slick-next::before{
+    transform: rotate(45deg);
+}
+
+#promotion .slick-dots  button::before{
+    transition: all 0.2s;
+}
+
+#promotion .slick-dots .slick-active button::before{
+    font-size: 20px;
+}
+
+#promotion .slick-initialized .slick-slide {
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+/* review */
+
+#review .slick-prev {
+    left: -25px;
+}
+
+#review .slick-prev::before, #review .slick-next::before {
+    color: #000;
+}
+
+#review .slick-prev, #review .slick-next {
+    top: 45%;
+}
+
+#review .slick-slide {
+    width: 240px !important;
+    margin: 30px;
+}

@@ -1,0 +1,129 @@
+#review {
+    background-color: rgba(0,0,0, 0.1);
+    padding: 100px 0;
+}
+
+#review div.container {
+    position: relative;
+}
+
+#review div.container h3 {
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+#review div.container p {
+    line-height: 4;
+    font-size: 20px;
+}
+
+#review div.container > div ul.review-slider {
+    
+    /*! width: calc(100% / 4); */
+}
+
+#review div.container > div ul.review-slider li a span {
+    overflow:hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+    display: block;
+    width: 215px;
+    margin-left: 5px;
+}
+
+#review div.container > div ul.review-slider li a span:nth-of-type(1) {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#review div.container > div ul.review-slider li a span:nth-of-type(2) {
+    line-height: 3;
+    font-size: 14px;
+}
+
+#review div.container > div ul li article {
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+#review div.container > div ul li article:hover {
+  border: 1px solid;
+}
+
+#review div.container > div ul li article img {
+    width: 238px;
+    height: 280px;
+}
+
+#review div.container > div ul li article > div {
+    margin-top: 10px;
+}
+
+#review div.container > div ul li article > div span:nth-of-type(1) {
+  overflow:hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  width: 200px;
+}
+
+#review div.container > div ul li article > div span:nth-of-type(2) {
+    line-height: 2;
+}
+
+#review div.container > div ul li article > div span:nth-of-type(3) {
+  overflow:hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+  display: block;
+  width: 200px;
+}
+
+/* 인스타그램 */
+
+#review .instagram {
+    margin-top: 170px;
+}
+
+#review .instagram h3 {
+    font-family: 'Lora', serif;
+    font-size: 40px;
+}
+
+#review .instagram p {
+    line-height: 3;
+}
+
+#review .instagram > div a {
+    position: relative;
+    display: inline-block;
+}
+
+#review .instagram > div a:before {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+#review .instagram > div a:hover:before {
+    background-color: rgba(0,0,0,0.5);
+}
+
+#review .instagram > div a:hover .btn {
+    display: block;
+}
+
+#review .instagram > div a img {
+    width: 200px;
+    height: 200px;
+}
+
+#review .instagram > div a div {
+    position: absolute;
+    top: 40%;
+    left: 48px;
+    display: none;
+}

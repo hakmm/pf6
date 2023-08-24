@@ -1,0 +1,124 @@
+#product {
+    padding-top: 100px;
+}
+
+#product .container {
+    position: relative;
+}
+
+#product .container h3 {
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+#product .container > p {
+    line-height: 4;
+    font-size: 20px;
+}
+
+#product .container ul.product-menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 35px;
+}
+
+#product .container ul.product-menu li a {
+    font-size: 20px;
+}
+
+#product .container ul.product-menu li a:hover {
+    border-bottom: 2px solid; 
+    font-weight: bold;
+}
+
+.product-border {
+    border-bottom: 2px solid; 
+    font-weight: bold;
+}
+
+#product .container div.product div.product-sub ul li {
+    display: flex;
+    justify-content: space-between;
+}
+
+#product .container div.product div.product-sub ul li > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#product .container div.product div.product-sub ul li > div > a {
+    display: block;
+    width: 280px;
+    height: 280px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+#product .container div.product div.product-sub ul li div > a:hover {
+    background-size: 105%;
+}
+
+#product .container div.product div.product-sub ul li div h4 {
+    line-height: 3;
+    font-size: 18px;
+}
+
+#product .container div.product div.product-sub ul li div p {
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+
+#product .container div.product div.product-sub ul li:nth-child(1) div:nth-child(1) > a {
+    background-image: url(../img/product01.jpg);
+}
+
+#product .container div.product div.product-sub ul li:nth-child(1) div:nth-child(2) > a {
+    background-image: url(../img/product02.jpg);
+}
+
+#product .container div.product div.product-sub ul li:nth-child(1) div:nth-child(3) > a {
+    background-image: url(../img/product03.jpg);
+}
+
+#product .container div.product div.product-sub ul li:nth-child(1) div:nth-child(4) > a {
+    background-image: url(../img/product04.jpg);
+}
+
+#product .container div.product div.product-sub ul li:nth-child(2) div:nth-child(1) > a {
+    background-image: url(../img/product05.jpg);
+}
+
+#product .container div.product div.product-sub ul li:nth-child(2) div:nth-child(2) > a {
+    background-image: url(../img/product06.jpg);
+}
+
+#product .container div.product div.product-sub ul li:nth-child(2) div:nth-child(3) > a {
+    background-image: url(../img/product07.jpg);
+}
+
+#product .container div.product div.product-sub ul li div > div {
+    margin-top: 10px;
+}
+
+#product .container div.product div.product-sub ul li div > div a {
+    text-align: center;
+    display: block;
+    border: 1px solid;
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    transition: all 1s;
+}
+
+#product .container div.product div.product-sub ul li div > div a:hover {
+    color: #fff;
+    background-color: #666;
+}

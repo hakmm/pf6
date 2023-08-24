@@ -1,0 +1,53 @@
+#title {
+    position: relative;
+    top: 102px;
+    width: 100%;
+    border-bottom: 2px solid;
+}
+
+#title .title-slider li {
+    padding: 0;
+}
+
+#title .slick-dots {
+    bottom: 30px;
+}
+
+#title .slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+
+#title a img {
+    height: 784px;
+    width: 100%;
+}
+
+#title a.title-gu {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+#title a div.sub {
+    position: absolute;
+    top: 160px;
+    left: 230px;
+}
+
+#title a div.sub h2 {
+    font-family: 'Lora', serif;
+    font-size: 65px;
+}
+
+#title a div.sub p {
+    line-height: 1.2;
+}
+
+#title a div.sub p:nth-of-type(1) {
+    margin: 50px 0;
+    font-size: 40px;
+}
+
+#title a div.sub p:nth-of-type(2) {
+    font-size: 25px;
+}

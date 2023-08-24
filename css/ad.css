@@ -1,0 +1,26 @@
+#ad {
+    padding: 100px 0;
+}
+
+#ad .container h3 {
+    font-family: 'Lora', serif;
+    font-size: 40px;
+}
+
+#ad .container p {
+    line-height: 4;
+    font-size: 20px;
+}
+
+#ad .container .container-sub {
+    display: flex;
+    gap: 40px;
+    margin: 0 auto;
+    max-width: 1720px;
+    margin-top: 50px;
+}
+
+#ad .container .container-sub > div img {
+    width: 400px;
+    height: 250px;
+}

@@ -1,0 +1,141 @@
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: #fff;
+}
+
+header .top {
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid;
+}
+
+header .top h1 a::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: block;
+    background-image: url(../img/logo.ico);
+    position: absolute;
+    bottom: 0;
+    left: 23px;
+    top: 29px;
+}
+
+header .top h1 a {
+    font-size: 0;
+    background-image: url(../img/logo.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+header .top ul {
+    display: flex;
+}
+
+header .top .Lmenu {
+    gap: 130px;
+}
+
+header .top .Lmenu li {
+    /*! position: relative; */
+}
+
+
+header .top .Lmenu li a {
+    font-size: 17px;
+    border: 1px solid transparent;
+}
+
+header .top .Lmenu li a:hover {
+    font-weight: bold;
+    border: 1px solid transparent;
+}
+
+
+header .top .Rmenu {
+    gap: 30px;
+}
+
+header .top .Rmenu li a {
+    font-size: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+
+header .top .Rmenu li:nth-child(1) a {
+    background-image: url(../img/header_member.svg);
+}
+
+header .top .Rmenu li:nth-child(2) a {
+    background-image: url(../img/header_search.svg);
+}
+
+header .top .Rmenu li:nth-child(3) a {
+    background-image: url(../img/header_cart.svg);
+}
+
+header div.menu-down {
+    display: none;
+}
+
+header div.menu-down div.lvl {
+    display: flex;
+    gap: 86px;
+    padding-left : 440px;
+}
+
+header div.menu-down div.lvl ul.lvl-down {
+    display: flex;
+    flex-direction: column;
+}
+
+header div.menu-down div.lvl ul.lvl-down li a {
+    line-height: 1.2;
+}
+
+header div.menu-down div.lvl ul.lvl-down li a:hover {
+    font-weight: bold;
+}
+
+header div.menu-down div.lvl ul.lvl-down:nth-child(3) {
+    margin-left: -31px;
+}
+
+header div.menu-down div.lvl ul.lvl-down:nth-child(4) {
+    margin-left: 5px;
+}
+
+header div.menu-down div.lvl ul.lvl-down:nth-child(5) li a  {
+    font-size: 0;
+}
+
+header div.menu-down div.lvl ul.lvl-down:nth-child(6) {
+    margin-left: 75px;
+}
+
+
+/* header .top .Lmenu div.down {
+    position: absolute;
+    top: 58px;
+    display: none;
+}
+
+header .top .Lmenu div.down .Lmenu-down {
+    flex-direction: column;
+    width: 150px;
+}
+
+header .top .Lmenu div.down .Lmenu-down li a {
+    line-height: 1.5;
+} */
